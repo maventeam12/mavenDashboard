@@ -132,16 +132,16 @@ function Service(props) {
         className="flex flex-col flex-1 items-center justify-center h-full"
       >
         <Typography color="text.secondary" variant="h5">
-          There is no such advertisement!
+          There is no such Notification!
         </Typography>
         <Button
           className="mt-24"
           component={Link}
           variant="outlined"
-          to="/contract/advertisements"
+          to="/contract/notifications"
           color="inherit"
         >
-          Go to advertisements Page
+          Go to notifications Page
         </Button>
       </motion.div>
     );

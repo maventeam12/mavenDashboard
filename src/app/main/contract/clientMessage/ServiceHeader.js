@@ -32,7 +32,7 @@ function ServiceHeader(props) {
           username: user.username,
         })
       ).then(() => {
-        navigate('/contract/advertisements');
+        navigate('/contract/notifications');
       });
     } else {
       dispatch(
@@ -44,7 +44,7 @@ function ServiceHeader(props) {
           username: user.username,
         })
       ).then(() => {
-        navigate('/contract/advertisements');
+        navigate('/contract/notifications');
       });
     }
   }
@@ -59,7 +59,7 @@ function ServiceHeader(props) {
           clientMessageId: getValues().id,
       })
     ).then(() => {
-      navigate('/contract/advertisements');
+      navigate('/contract/notifications');
     });
   }
 
@@ -74,7 +74,7 @@ function ServiceHeader(props) {
             className="flex items-center sm:mb-12"
             component={Link}
             role="button"
-            to="/contract/advertisements"
+            to="/contract/notifications"
             color="inherit"
           >
             <FuseSvgIcon style={{color:'#f4b231'}} size={20}>
@@ -82,7 +82,7 @@ function ServiceHeader(props) {
                 ? 'heroicons-outline:arrow-sm-left'
                 : 'heroicons-outline:arrow-sm-right'}
             </FuseSvgIcon>
-            <span className="flex mx-4 font-medium"style={{color:'#f4b231'}}>advertisements</span>
+            <span className="flex mx-4 font-medium"style={{color:'#f4b231'}}>Notifications</span>
           </Typography>
         </motion.div>
 
@@ -93,10 +93,10 @@ function ServiceHeader(props) {
             animate={{ x: 0, transition: { delay: 0.3 } }}
           >
             <Typography className="text-16 sm:text-20 truncate font-semibold">
-              {title || 'New advertisement'}
+              {title || 'New Notification'}
             </Typography>
             <Typography variant="caption" className="font-medium">
-            Advertisement Detail
+            Notification Detail
             </Typography>
           </motion.div>
         </div>

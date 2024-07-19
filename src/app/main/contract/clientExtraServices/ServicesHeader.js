@@ -35,7 +35,7 @@ function ServicesHeader(props) {
           <FuseSvgIcon color="disabled">heroicons-solid:search</FuseSvgIcon>
 
           <Input
-            placeholder="Search Advertisement"
+            placeholder="Search requests"
             className="flex flex-1"
             disableUnderline
             fullWidth

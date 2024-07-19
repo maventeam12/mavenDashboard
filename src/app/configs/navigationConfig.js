@@ -25,13 +25,13 @@ const navigationConfig = [
         url: "/clientContract/contracts",
       },
       {
-        id: "contracts.advertisement  ",
+        id: "contracts.notification  ",
         auth: ["client"],
         title: "all users",
-        translate: "advertisement",
+        translate: "notification",
         type: "item",
         icon: "material-solid:notifications_active",
-        url: "/clientContract/advertisements",
+        url: "/clientContract/notifications",
       },
 
     ],
@@ -55,13 +55,13 @@ const navigationConfig = [
         url: "/contract/contracts",
       },
       {
-        id: "contracts.advertisement  ",
+        id: "contracts.notification  ",
         auth: ["admin",'employee'],
         title: "all users",
-        translate: "advertisement",
+        translate: "notification",
         type: "item",
         icon: "material-solid:notifications_active",
-        url: "/contract/advertisements",
+        url: "/contract/notifications",
       },
       {
         id: "contracts.contractExtraService  ",

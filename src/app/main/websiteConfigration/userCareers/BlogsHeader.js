@@ -35,7 +35,7 @@ function BlogsHeader(props) {
           <FuseSvgIcon color="disabled">heroicons-solid:search</FuseSvgIcon>
 
           <Input
-            placeholder="Search blogs"
+            placeholder="Search solicitud"
             className="flex flex-1"
             disableUnderline
             fullWidth

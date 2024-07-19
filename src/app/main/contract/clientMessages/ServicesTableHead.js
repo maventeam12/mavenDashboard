@@ -93,7 +93,7 @@ function ServicesTableHead(props) {
         children: (
           <>
             <DialogTitle id="alert-dialog-title">
-              Are you sure you want to delete this advertisement(s)?
+              Are you sure you want to delete this Notification(s)?
             </DialogTitle>
             <DialogActions>
               <Button onClick={() => dispatch(closeDialog())} color="secondary">

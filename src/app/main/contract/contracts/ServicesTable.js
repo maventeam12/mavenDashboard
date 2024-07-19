@@ -45,7 +45,7 @@ function ServicesTable(props) {
     if (searchText?.length !== 0) {
       setData(
         _.filter(services, (item) =>
-          item?.id?.toString()?.toLowerCase().includes(searchText.toLowerCase())
+          item?.clientId?.toString()?.toLowerCase().includes(searchText.toLowerCase())
         )
       );
       setPage(0);

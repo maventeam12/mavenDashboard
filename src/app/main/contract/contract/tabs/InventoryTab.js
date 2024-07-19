@@ -47,8 +47,7 @@ const schema = yup.object().shape({
   clientId: yup
   .number()
   .positive("only positive ID")
-  .required('You must enter the ID')
-  .min(10, 'The ID must be at least 10 characters'),
+  .required('You must enter the ID'),
   months: yup
     .number()
     .positive("only positive months")
@@ -276,8 +275,7 @@ function UserTab(props) {
             />
           )}
         />
-      
-      <Controller
+              <Controller
           control={control}
           name="linkToDrive"
           render={({ field }) => (
@@ -303,7 +301,7 @@ function UserTab(props) {
             />
           )}
         />
-        <Controller
+              <Controller
           control={control}
           name="months"
           render={({ field }) => (
@@ -314,7 +312,7 @@ function UserTab(props) {
               placeholder="number of months"
               id="months"
               type='number'
-              error={!!errors.months}
+              error={!!errors?.months}
               helperText={errors?.months?.message}
               variant="outlined"
               required
@@ -329,8 +327,10 @@ function UserTab(props) {
             />
           )}
         />
+
+
 {
-  contact.contractExtService[0] && 
+  contact?.contractExtService && 
   <>
   <div className="mt-28 ">
                         <div className="text-3xl text-[#94A3B8]">

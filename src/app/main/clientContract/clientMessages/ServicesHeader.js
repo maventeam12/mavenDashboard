@@ -22,7 +22,7 @@ function ServicesHeader(props) {
         className="text-24 md:text-32 font-extrabold tracking-tight"
         style={{color:'#f4b231'}}
       >
-        Advertisements
+        Notifications
       </Typography>
 
       <div className="flex flex-col w-full sm:w-auto sm:flex-row space-y-16 sm:space-y-0 flex-1 items-center justify-end space-x-8">
@@ -35,7 +35,7 @@ function ServicesHeader(props) {
           <FuseSvgIcon color="disabled">heroicons-solid:search</FuseSvgIcon>
 
           <Input
-            placeholder="Search Advertisement"
+            placeholder="Search notifications"
             className="flex flex-1"
             disableUnderline
             fullWidth

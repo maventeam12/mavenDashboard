@@ -9,7 +9,7 @@ const contractAppConfig = {
   },
   routes: [
     {
-      path: 'clientContract/advertisements',
+      path: 'clientContract/notifications',
       element: <ClientMessages />,
       auth: ['client'],
     },

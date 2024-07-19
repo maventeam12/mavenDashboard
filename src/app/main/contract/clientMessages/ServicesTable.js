@@ -83,7 +83,7 @@ function ServicesTable(props) {
   }
 
   function handleClick(item) {
-    props.navigate(`/contract/advertisements/${item.id}`);
+    props.navigate(`/contract/notifications/${item.id}`);
   }
 
   function handleCheck(event, id) {
@@ -130,7 +130,7 @@ function ServicesTable(props) {
         className="flex flex-1 items-center justify-center h-full"
       >
         <Typography color="text.secondary" variant="h5">
-          There are no Advertisements!
+          There are no Notifications!
         </Typography>
       </motion.div>
     );

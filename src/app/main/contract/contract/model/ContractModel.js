@@ -7,6 +7,7 @@ const CareerModel = (data) =>
     endDate: '',
     linkToDrive: '',
     clientId: '',
+    months:'',
     details: [{ 
       contractId:'',
       serviceName:'',

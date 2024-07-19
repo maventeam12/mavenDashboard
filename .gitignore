@@ -8,7 +8,9 @@
 /coverage
 
 # production
-/build
+/build2
+/build old
+/dashboard
 
 # misc
 .DS_Store

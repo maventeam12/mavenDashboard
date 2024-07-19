@@ -12,7 +12,7 @@ const locale = {
   CLIENTS:'Clients',
   COMPANY: 'Maven Events',
   CONTRACTS:'Contracts',
-  advertisement:'Advertisement',
+  notification:'Notifications',
   CAREERSOLICITUD:'Career Solicitudes',
   CONTRACTS:'Contracts',
   LOGINHOUR : 'Login Time',

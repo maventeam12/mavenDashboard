@@ -12,7 +12,7 @@ const locale = {
   CLIENTS:'الزبائن',
   COMPANY: 'Maven Events',
   CONTRACTS:'العقود',
-  advertisement:'إعلان',
+  notification:'الإشعارات',
   CAREERSOLICITUD:'طلبات الوظائف',
   CONTRACTS:'العقود',
   LOGINHOUR : 'وقت تسجيل الدخول',

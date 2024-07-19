@@ -10,12 +10,12 @@ const contractAppConfig = {
   },
   routes: [
     {
-      path: 'contract/advertisements',
+      path: 'contract/notifications',
       element: <ClientMessages />,
       auth: ['admin', 'employee'],
     },
     {
-      path: 'contract/advertisements/:clientMessageId',
+      path: 'contract/notifications/:clientMessageId',
       element: <ClientMessage />,
       auth: ['admin', 'employee'],
     },
